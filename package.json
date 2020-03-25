@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo 'Error: no test specified' && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RobsonAndraDev/npm-package-test.git"
+    "url": "ssh://git@github.com:RobsonAndraDev/npm-package-test.git"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/RobsonAndraDev"
   },
   "author": "Robson Andrade",
   "license": "ISC",
