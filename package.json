@@ -1,6 +1,6 @@
 {
-  "name": "npm-package-test",
-  "version": "1.0.0",
+  "name": "@RobsonAndraDev/npm-package-test",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,10 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:RobsonAndraDev/npm-package-test.git"
-  },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com/RobsonAndraDev"
+    "url": "git://github.com/RobsonAndraDev/npm-package-test.git"
   },
   "author": "Robson Andrade",
   "license": "ISC",
